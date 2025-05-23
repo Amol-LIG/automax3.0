@@ -21,7 +21,7 @@ public class incident {
 
     private By Login = By.xpath("(//button[@type='submit'])[2]");
     private By Shpassword = By.xpath("//input[@type='checkbox']");
-private By Ims= By.xpath("(//div[@class='card app h-100'])[2]");
+private By Ims= By.xpath("(//div[@class='card app h-100'])[3]");
 private By AllIncident= By.xpath("(//label[@class='title mb-0 pointer'])[2]");
 private By Refresh= By.xpath("(//button[@type='button'])[12]");
 private By ClickIVRI = By.xpath("//div[text()='IVR']");
@@ -30,7 +30,7 @@ private By Comment= By.xpath("(//a[@target='_self'])[21]");
 private By Action= By.xpath("(//a[@target='_self'])[22]");
 private By ChangeAction= By.xpath("//button[@class='btn py-0 m-0 btn-link']");
 private  By Attachment = By.xpath("(//a[@target='_self'])[23]");
-private  By Add=By.xpath("(//button[@type='button'])[13]");
+private  By Add=By.xpath("//button[@class='btn btn-primary btn-lg']");
 private By Idd= By.xpath("(//input[@class='mr-2 form-control'])[1]");
 private By CallerName= By.xpath("(//input[@class='mr-2 form-control'])[2]");
     private By MobileNumer= By.xpath("(//input[@class='mr-2 form-control'])[3]");
@@ -41,7 +41,7 @@ private By SelectCChanel =By.xpath("(//li[@role='option'])[1]");
 private By SaveCopy =By.xpath("//button[@class='btn text-nowrap btn-light btn-lg']");
 private By Edit= By.xpath("//button[@class='btn btn-light btn-lg']");
 private By ClickHigh =By.xpath("(//li[@role='option'])[2]");
-private By SaveHigh =By.xpath("//button[@type='submit']");
+private By SaveHigh =By.xpath("//span[text()='Save']");
 private By Delete= By.xpath("//button[@class='btn btn-danger btn-lg  border-0 flex-fill']");
 private By YesClick =By.xpath("//svg[@role='img']");
 private By DownloadR =By.xpath("//span[@class='toggleReportDownload']");
@@ -62,7 +62,8 @@ private By ClickAssignto =By.xpath("(//div[@class='vs__selected-options'])[5]");
 private By SelectAssignto =By.xpath("(//li[@role='option'])[2]");
 private By ClickDepartment =By.xpath("(//div[@class='vs__selected-options'])[6]");
 private By SelectDepartment =By.xpath("(//li[@role='option'])[1]");
-private By SubmitI =By.xpath("//div[@class='c-toolbar d-flex flex-column flex-sm-row bg-white p-3 gap-1 flex-wrap shadow border-top']//button//span");
+private By Message= By.xpath("(//span[@id='chatButton']//*[name()='svg'])[2]");
+private By SubmitI =By.xpath("//button[@class='btn btn-primary btn-lg']");
 
 
 
@@ -220,13 +221,19 @@ private By SubmitI =By.xpath("//div[@class='c-toolbar d-flex flex-column flex-sm
         WebElement SSELECTDEPARTMENT= wait.until(ExpectedConditions.visibilityOfElementLocated(SelectDepartment));
         SSELECTDEPARTMENT.click();
     }
+
+
+    public void ClickOnTheMessage() {
+        WebElement CLICKMESSAGE= wait.until(ExpectedConditions.visibilityOfElementLocated(Message));
+CLICKMESSAGE.click();
+    }
+
+
+
+
     public void ClickOnTheSubmit() {
-
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type=\"submit\"]//span"))).click();
-
-        WebElement CCLICKSUBMIT= wait.until(ExpectedConditions.visibilityOfElementLocated(SubmitI));
-        CCLICKSUBMIT.click();
+        WebElement SAVEIN= wait.until(ExpectedConditions.visibilityOfElementLocated(SubmitI));
+        SAVEIN.click();
 
     }
 

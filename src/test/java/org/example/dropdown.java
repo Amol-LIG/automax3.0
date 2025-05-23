@@ -36,21 +36,12 @@ public class dropdown {
         driver.findElement(By.xpath("(//label[@class='title mb-0 pointer'])[2]")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@data-test-id='button-add-record']")).click();
-        Thread.sleep(1000);
-     //   driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//span[@id='chatButton']//*[name()='svg'])[2]")).click();
+        Thread.sleep(2000);
 
-       Actions actions= new Actions(driver);
-        WebElement button = driver.findElement(By.id("button-text"));
-actions.moveToElement(button,5  ,2).click().build().perform();
-
-
-       // WebElement element = driver.findElement(By.className("btn btn-primary btn-lg"));
-       // Actions actions = new Actions(driver);
-        //actions.moveToElement(element).click().perform();
+        driver.findElement(By.xpath("//button[@class='btn btn-primary btn-lg']")).click();
 
     }
 
 }
-//WebElement element = driver.findElement(By.id("yourElementId"));
-//JavascriptExecutor js = (JavascriptExecutor) driver;
-//js.executeScript("arguments[0].click();", element);

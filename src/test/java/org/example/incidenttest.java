@@ -201,8 +201,9 @@ incident.ClickOnTheAssignto();
         incident.ClickOnTheDepartment();
         Thread.sleep(1000);
         incident.SelectOnTheDepartment();
-        Thread.sleep(1000);
-
+        Thread.sleep(2000);
+        incident.ClickOnTheMessage();
+        Thread.sleep(2000);
         incident.ClickOnTheSubmit();
 
     }
@@ -248,9 +249,10 @@ incident.ClickOnEdit();
 incident.ClickOnTheCritically();
         Thread.sleep(1000);
 incident.ClickOnTheHigh();
-        Thread.sleep(3000);
-incident.ClickOnSaveHigh();
-    }
+        Thread.sleep(2000);
+        incident.ClickOnTheMessage();
+        Thread.sleep(2000);
+        incident.ClickOnTheSubmit();    }
 
     @Test
     public void DeleteIncidentTest() throws IOException, InterruptedException {
