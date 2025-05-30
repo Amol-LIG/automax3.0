@@ -20,15 +20,13 @@ public class location {
     private By Login = By.xpath("(//button[@type='submit'])[2]");
     private By Shpassword = By.xpath("//input[@type='checkbox']");
     private By AdminArea = By.xpath("(//div[@class='card app h-100'])[10]");
-private By Location = By.xpath("(//span[@class='d-inline-block w-75 text-nowrap text-truncate'])[4]");
-private By AddLocation = By.xpath("(//button[@data-test-id='button-new-user'])[1]");
-private By Addnode = By.xpath("//input[@placeholder='Name for the new node']");
-private By SaveNode = By.xpath("(//button[@class='btn btn-primary btn-xm'])[1]");
-private By LocationSearch = By.xpath("//input[@placeholder='Search location']");
-private By deletelocation = By.xpath("//div[@class='valueWrapper']");
-private By ArrowDelete=By.xpath("(//div[@class='tools']//button)[2]");
-
-
+    private By Location = By.xpath("(//span[@class='d-inline-block w-75 text-nowrap text-truncate'])[4]");
+    private By AddLocation = By.xpath("(//button[@data-test-id='button-new-user'])[1]");
+    private By Addnode = By.xpath("//input[@placeholder='Name for the new node']");
+    private By SaveNode = By.xpath("(//button[@class='btn btn-primary btn-xm'])[1]");
+    private By LocationSearch = By.xpath("//input[@placeholder='Search location']");
+    private By deletelocation = By.xpath("//div[@class='valueWrapper']");
+    private By ArrowDelete = By.xpath("(//div[@class='tools']//button)[2]");
 
 
     // Constructor to initialize driver
@@ -51,61 +49,56 @@ private By ArrowDelete=By.xpath("(//div[@class='tools']//button)[2]");
         WebElement clickonpassField = wait.until(ExpectedConditions.visibilityOfElementLocated(Shpassword));
         clickonpassField.click();
     }
+
     public void enterthecaptcha(String captcha) {
         WebElement ENTERCAPTCHA = wait.until(ExpectedConditions.visibilityOfElementLocated(Captcha));
         ENTERCAPTCHA.sendKeys(captcha);
     }
 
-    public void clickLogin()
-    {
-        WebElement loginclick= wait.until(ExpectedConditions.visibilityOfElementLocated(Login));
+    public void clickLogin() {
+        WebElement loginclick = wait.until(ExpectedConditions.visibilityOfElementLocated(Login));
         loginclick.click();
     }
-    public void clicAdminArea()
-    {
-        WebElement clickAdmin= wait.until(ExpectedConditions.visibilityOfElementLocated(AdminArea));
+
+    public void clicAdminArea() {
+        WebElement clickAdmin = wait.until(ExpectedConditions.visibilityOfElementLocated(AdminArea));
         clickAdmin.click();
     }
-    public void clickOnlocation()
-    {
-        WebElement clicklocation= wait.until(ExpectedConditions.visibilityOfElementLocated(Location));
+
+    public void clickOnlocation() {
+        WebElement clicklocation = wait.until(ExpectedConditions.visibilityOfElementLocated(Location));
         clicklocation.click();
     }
-    public void Addthelocation()
-    {
-        WebElement ADDLOCATION= wait.until(ExpectedConditions.visibilityOfElementLocated(AddLocation));
+
+    public void Addthelocation() {
+        WebElement ADDLOCATION = wait.until(ExpectedConditions.visibilityOfElementLocated(AddLocation));
         ADDLOCATION.click();
     }
-    public void AddtheNewNode(String TheNode)
-    {
-        WebElement NEWNODE= wait.until(ExpectedConditions.visibilityOfElementLocated(Addnode));
+
+    public void AddtheNewNode(String TheNode) {
+        WebElement NEWNODE = wait.until(ExpectedConditions.visibilityOfElementLocated(Addnode));
         NEWNODE.sendKeys(TheNode);
     }
-    public void ClickOnSaveNode()
-    {
-        WebElement SAVENODE= wait.until(ExpectedConditions.visibilityOfElementLocated(SaveNode));
+
+    public void ClickOnSaveNode() {
+        WebElement SAVENODE = wait.until(ExpectedConditions.visibilityOfElementLocated(SaveNode));
         SAVENODE.click();
     }
-    public void SearchTheLocation(String SLocation)
-    {
-        WebElement SLOCATION= wait.until(ExpectedConditions.visibilityOfElementLocated(LocationSearch));
+
+    public void SearchTheLocation(String SLocation) {
+        WebElement SLOCATION = wait.until(ExpectedConditions.visibilityOfElementLocated(LocationSearch));
         SLOCATION.sendKeys(SLocation);
     }
 
-    public void deleteTheLocation()
-    {
-        WebElement DELETELOCATION= wait.until(ExpectedConditions.visibilityOfElementLocated(deletelocation));
+    public void deleteTheLocation() {
+        WebElement DELETELOCATION = wait.until(ExpectedConditions.visibilityOfElementLocated(deletelocation));
         DELETELOCATION.click();
     }
-    public void deleteTheLocationclickonarrow()
-    {
-        WebElement DELETELOCATIONARROW= wait.until(ExpectedConditions.visibilityOfElementLocated(ArrowDelete));
+
+    public void deleteTheLocationclickonarrow() {
+        WebElement DELETELOCATIONARROW = wait.until(ExpectedConditions.visibilityOfElementLocated(ArrowDelete));
         DELETELOCATIONARROW.click();
     }
-
-
-
-
 
 
 }

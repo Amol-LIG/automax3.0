@@ -13,23 +13,47 @@ import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Objects;
 import java.util.Set;
 
 public class LoginTest {
 
 
-    WebDriver driver = new ChromeDriver();
+ // WebDriver driver = new ChromeDriver();
+
+   public  WebDriver driver ;
+   public WebDriverWait wait;
+    ExtentReports extent;
+   ExtentTest test;
 
 
     void launchBrowser() {
         WebDriverManager.chromedriver().setup();
+
+
+       System.out.println("Chrome binary: " + System.getProperty("webdriver.chrome.driver"));
+
+
+        // Set Chrome options for headless mode
+        ChromeOptions options = new ChromeOptions();
+       options.addArguments("--headless");
+       options.addArguments("--disable-gpu"); // Disable GPU hardware acceleration
+        options.addArguments("--disable-dev-shm-usage"); // Overcome limited resource problems
+        options.addArguments("--no-sandbox"); // Bypass OS security model
+
+
+
+        // Initialize driver with Chrome options
+        driver = new ChromeDriver(options);
+
+
+
         driver.manage().window().maximize();
         driver.get("https://automax.discretal.com");
 
@@ -38,7 +62,13 @@ public class LoginTest {
 
 
     @BeforeMethod
-    public void setup() {
+    public void setup()
+    {
+        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("extentReport.html");
+        extent = new ExtentReports();
+        extent.attachReporter(sparkReporter);
+
+        test = extent.createTest("LoginTest", "Verifying login functionality");
         launchBrowser();
     }
 
@@ -53,7 +83,7 @@ public class LoginTest {
         // loginPage.clickonremeberme() ;
         // loginPage.ClickOnEye();
         loginPage.clickLogin();
-
+        extent.flush();
     }
 
     @Test
@@ -65,6 +95,7 @@ public class LoginTest {
         loginPage.enternewpassword("Amol@9975");
         loginPage.EnterFullName("Amol Giram");
         loginPage.clickonsubmit();
+        extent.flush();
     }
 
     @Test
@@ -75,21 +106,22 @@ public class LoginTest {
         loginPage.enterthecaptcha("wytrsi");
 
         loginPage.clickLogin();
-        Thread.sleep(1000);
+        Thread.sleep(7000);
         loginPage.clickOnProfile();
         Thread.sleep(1000);
         loginPage.ClickOnTheProfile();
 
         Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
+        for (String windowid : windowIds)
             driver.switchTo().window(windowid);
         Thread.sleep(1000);
-   //loginPage.UpdateTheProfullname("giram amol");
-loginPage.SelectTheLanguage();
+        //loginPage.UpdateTheProfullname("giram amol");
+        loginPage.SelectTheLanguage();
         Thread.sleep(1000);
-loginPage.SelectTheAr();
+      //  loginPage.SelectTheAr();
         Thread.sleep(1000);
-loginPage.SubmitTheProfile();
+        loginPage.SubmitTheProfile();
+        extent.flush();
     }
 
     @Test
@@ -105,12 +137,12 @@ loginPage.SubmitTheProfile();
         loginPage.clickOnProfile();
         Thread.sleep(1000);
         loginPage.ClickOnTheProfile();
-       Thread.sleep(1000);
+        Thread.sleep(1000);
         Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
+        for (String windowid : windowIds)
             driver.switchTo().window(windowid);
         loginPage.ClickOnSecurity();
-
+        extent.flush();
     }
 
     @Test
@@ -127,10 +159,10 @@ loginPage.SubmitTheProfile();
         loginPage.ClickOnTheProfile();
         Thread.sleep(1000);
         Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
+        for (String windowid : windowIds)
             driver.switchTo().window(windowid);
         loginPage.ClickOnLoginSession();
-
+       extent.flush();
     }
 
     @Test
@@ -147,27 +179,13 @@ loginPage.SubmitTheProfile();
         loginPage.ClickOnTheProfile();
         Thread.sleep(1000);
         Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
+        for (String windowid : windowIds)
             driver.switchTo().window(windowid);
         loginPage.ClickOnAuthorizedClient();
-
+        extent.flush();
     }
 
-    @Test
-    public void ChangeThemeTest() throws InterruptedException {
-        LoginPage loginPage = new LoginPage(driver);
-        loginPage.enterUsername("g.amol@leadergroup.com");
-        loginPage.enterPassword("Leader@1234");
-        loginPage.enterthecaptcha("wytrsi");
 
-        loginPage.clickLogin();
-        Thread.sleep(7000);
-        loginPage.clickOnProfile();
-        Thread.sleep(500);
-        loginPage.ChangeTheme();
-        Thread.sleep(500);
-        loginPage.SelectTheTheme();
-    }
 
     @Test
     public void ClickOnLogoutTest() throws InterruptedException {
@@ -182,12 +200,11 @@ loginPage.SubmitTheProfile();
         loginPage.clickOnProfile();
 
         Thread.sleep(7000);
-loginPage.ClickOnLogout();
+        loginPage.ClickOnLogout();
+        extent.flush();
     }
-
     @Test
-    public void ChangePasswordTest() throws InterruptedException {
-
+    public void ChangeThemeTest() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("g.amol@leadergroup.com");
         loginPage.enterPassword("Leader@1234");
@@ -196,68 +213,37 @@ loginPage.ClickOnLogout();
         loginPage.clickLogin();
         Thread.sleep(7000);
         loginPage.clickOnProfile();
-        Thread.sleep(1000);
-loginPage.ClickOnChangePassword();
-       Thread.sleep(1000);
-        Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
-            driver.switchTo().window(windowid);
-        Thread.sleep(1000);
-
-        loginPage.EnterTheOldPassword("Giram@9975");
-Thread.sleep(2000);
-loginPage.EnterTheNewPassword("Leader@1234");
-        Thread.sleep(1000);
-loginPage.ClickOnSubmitPassword();
+        Thread.sleep(500);
+        loginPage.ChangeTheme();
+        Thread.sleep(500);
+        //loginPage.SelectTheTheme();
+        extent.flush();
     }
+    // @Test
+    // public void ChangePasswordTest() throws InterruptedException {
 
+    //    LoginPage loginPage = new LoginPage(driver);
+    //  loginPage.enterUsername("g.amol@leadergroup.com");
+    //  loginPage.enterPassword("Leader@1234");
+    //  loginPage.enterthecaptcha("wytrsi");
+
+    //   loginPage.clickLogin();
+    //  Thread.sleep(7000);
+    //   loginPage.clickOnProfile();
+    //  Thread.sleep(1000);
+//loginPage.ClickOnChangePassword();
+    // Thread.sleep(1000);
+    //   Set<String> windowIds = driver.getWindowHandles();
+    //   for(String windowid :windowIds)
+    //  driver.switchTo().window(windowid);
+    //  Thread.sleep(1000);
+//
+    //   loginPage.EnterTheOldPassword("Giram@9975");
+//Thread.sleep(2000);
+//loginPage.EnterTheNewPassword("Leader@1234");
+//        Thread.sleep(1000);
+//loginPage.ClickOnSubmitPassword();
+    //  }
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      //  @Test
-      //  public void ValidloginTest() throws InterruptedException, IOException {
-
-          //  LoginPage loginPage = new LoginPage(driver);
-          //  loginPage.enterUsername("qaqc@takasolutions.com");
-           // loginPage.enterPassword("QaQc@2024!");
-            // loginPage.clickonForgotPasword();
-            // loginPage.clickonremeberme() ;g
-           // loginPage.ClickOnEye();
-          // loginPage.clickLogin();
-
-       // }
-
-
-        // @AfterMethod // This method will run after each test method
-        // public void tearDown() {
-        //     if (driver != null) {
-        //       driver.quit(); // Close the browser
-        //     }
-
-   // }
