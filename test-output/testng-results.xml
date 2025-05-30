@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="51" passed="51" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-29T14:59:13 IST" name="All Test Suite" finished-at="2025-05-29T15:26:10 IST" duration-ms="1616659">
+    <groups>
+    </groups>
+    <test started-at="2025-05-29T14:59:13 IST" name="C:/Users/DELL/Downloads/Automax/Automax" finished-at="2025-05-29T15:26:10 IST" duration-ms="1616659">
+      <class name="org.example.rolestest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:23:06 IST" name="setup" finished-at="2025-05-29T15:23:21 IST" duration-ms="15274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnrolesTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:23:21 IST" name="ClickOnrolesTest" finished-at="2025-05-29T15:23:34 IST" duration-ms="12447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnrolesTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:23:34 IST" name="setup" finished-at="2025-05-29T15:23:42 IST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FilterTherolesTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:23:42 IST" name="FilterTherolesTest" finished-at="2025-05-29T15:23:56 IST" duration-ms="14047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterTherolesTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:23:56 IST" name="setup" finished-at="2025-05-29T15:24:00 IST" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddandDeleteRoleMembershipTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:24:00 IST" name="AddandDeleteRoleMembershipTest" finished-at="2025-05-29T15:24:31 IST" duration-ms="31476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddandDeleteRoleMembershipTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:24:31 IST" name="setup" finished-at="2025-05-29T15:24:45 IST" duration-ms="13719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ArchiveTherolesTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:24:45 IST" name="ArchiveTherolesTest" finished-at="2025-05-29T15:25:11 IST" duration-ms="25920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArchiveTherolesTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:25:11 IST" name="setup" finished-at="2025-05-29T15:25:27 IST" duration-ms="16030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewRoleTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:25:27 IST" name="CreateNewRoleTest" finished-at="2025-05-29T15:25:45 IST" duration-ms="18067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewRoleTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:25:45 IST" name="setup" finished-at="2025-05-29T15:25:53 IST" duration-ms="8621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteTherolesTest()[pri:0, instance:org.example.rolestest@3c419631]" started-at="2025-05-29T15:25:53 IST" name="DeleteTherolesTest" finished-at="2025-05-29T15:26:10 IST" duration-ms="16326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTherolesTest -->
+      </class> <!-- org.example.rolestest -->
+      <class name="org.example.locationtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:21:30 IST" name="setup" finished-at="2025-05-29T15:21:46 IST" duration-ms="15349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnLocationTest()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:21:46 IST" name="ClickOnLocationTest" finished-at="2025-05-29T15:22:06 IST" duration-ms="19752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLocationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:22:06 IST" name="setup" finished-at="2025-05-29T15:22:18 IST" duration-ms="12591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchTheLocationTest()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:22:18 IST" name="SearchTheLocationTest" finished-at="2025-05-29T15:22:37 IST" duration-ms="18835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTheLocationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:22:37 IST" name="setup" finished-at="2025-05-29T15:22:45 IST" duration-ms="7659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteTheLocationTest()[pri:0, instance:org.example.locationtest@4a22f9e2]" started-at="2025-05-29T15:22:45 IST" name="DeleteTheLocationTest" finished-at="2025-05-29T15:23:06 IST" duration-ms="21389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTheLocationTest -->
+      </class> <!-- org.example.locationtest -->
+      <class name="org.example.adminareatest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:02:38 IST" name="setup" finished-at="2025-05-29T15:02:49 IST" duration-ms="11478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClicklonuserTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:02:49 IST" name="ClicklonuserTest" finished-at="2025-05-29T15:03:06 IST" duration-ms="16479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicklonuserTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:03:06 IST" name="setup" finished-at="2025-05-29T15:03:16 IST" duration-ms="10516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FilteruserTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:03:16 IST" name="FilteruserTest" finished-at="2025-05-29T15:03:37 IST" duration-ms="20555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilteruserTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:03:37 IST" name="setup" finished-at="2025-05-29T15:03:46 IST" duration-ms="9442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AvatorSettingUpdateTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:03:46 IST" name="AvatorSettingUpdateTest" finished-at="2025-05-29T15:04:04 IST" duration-ms="17502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AvatorSettingUpdateTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:04:04 IST" name="setup" finished-at="2025-05-29T15:04:15 IST" duration-ms="10582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AllowrolemembershipTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:04:15 IST" name="AllowrolemembershipTest" finished-at="2025-05-29T15:04:33 IST" duration-ms="18669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllowrolemembershipTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:04:33 IST" name="setup" finished-at="2025-05-29T15:04:42 IST" duration-ms="8257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleterolemembershipTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:04:42 IST" name="DeleterolemembershipTest" finished-at="2025-05-29T15:05:02 IST" duration-ms="20046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleterolemembershipTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:05:02 IST" name="setup" finished-at="2025-05-29T15:05:16 IST" duration-ms="14524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ActionLogSelectTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:05:16 IST" name="ActionLogSelectTest" finished-at="2025-05-29T15:05:36 IST" duration-ms="19551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActionLogSelectTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:05:36 IST" name="setup" finished-at="2025-05-29T15:05:45 IST" duration-ms="9542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SuspenduserTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:05:45 IST" name="SuspenduserTest" finished-at="2025-05-29T15:06:01 IST" duration-ms="15580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuspenduserTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:06:01 IST" name="setup" finished-at="2025-05-29T15:06:13 IST" duration-ms="11909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteuserTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:06:13 IST" name="DeleteuserTest" finished-at="2025-05-29T15:06:29 IST" duration-ms="16233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteuserTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:06:29 IST" name="setup" finished-at="2025-05-29T15:06:36 IST" duration-ms="7361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewuserTest()[pri:0, instance:org.example.adminareatest@49d904ec]" started-at="2025-05-29T15:06:36 IST" name="CreateNewuserTest" finished-at="2025-05-29T15:06:55 IST" duration-ms="19051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewuserTest -->
+      </class> <!-- org.example.adminareatest -->
+      <class name="org.example.classificationtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:12:20 IST" name="setup" finished-at="2025-05-29T15:12:34 IST" duration-ms="13475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnClassificationTest()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:12:34 IST" name="ClickOnClassificationTest" finished-at="2025-05-29T15:13:00 IST" duration-ms="26668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnClassificationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:13:00 IST" name="setup" finished-at="2025-05-29T15:13:04 IST" duration-ms="3360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchClassificationTest()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:13:04 IST" name="SearchClassificationTest" finished-at="2025-05-29T15:13:38 IST" duration-ms="33805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchClassificationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:13:38 IST" name="setup" finished-at="2025-05-29T15:13:49 IST" duration-ms="11286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteClassificationTest()[pri:0, instance:org.example.classificationtest@3d680b5a]" started-at="2025-05-29T15:13:49 IST" name="DeleteClassificationTest" finished-at="2025-05-29T15:14:15 IST" duration-ms="26383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteClassificationTest -->
+      </class> <!-- org.example.classificationtest -->
+      <class name="org.example.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T14:59:13 IST" name="setup" finished-at="2025-05-29T14:59:30 IST" duration-ms="16393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T14:59:30 IST" name="LoginTest" finished-at="2025-05-29T14:59:36 IST" duration-ms="6483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T14:59:36 IST" name="setup" finished-at="2025-05-29T14:59:47 IST" duration-ms="11027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewAccountTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T14:59:47 IST" name="CreateNewAccountTest" finished-at="2025-05-29T14:59:55 IST" duration-ms="7784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewAccountTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T14:59:55 IST" name="setup" finished-at="2025-05-29T15:00:06 IST" duration-ms="11225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateProfileTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:00:06 IST" name="UpdateProfileTest" finished-at="2025-05-29T15:00:24 IST" duration-ms="17820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProfileTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:00:24 IST" name="setup" finished-at="2025-05-29T15:00:36 IST" duration-ms="12394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeeSecurityTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:00:36 IST" name="SeeSecurityTest" finished-at="2025-05-29T15:00:52 IST" duration-ms="15934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeSecurityTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:00:52 IST" name="setup" finished-at="2025-05-29T15:01:03 IST" duration-ms="10911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeeLoginDessionsTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:01:03 IST" name="SeeLoginDessionsTest" finished-at="2025-05-29T15:01:14 IST" duration-ms="10683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeLoginDessionsTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:01:14 IST" name="setup" finished-at="2025-05-29T15:01:33 IST" duration-ms="19441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeeAuthorizedClientTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:01:33 IST" name="SeeAuthorizedClientTest" finished-at="2025-05-29T15:01:43 IST" duration-ms="9331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeAuthorizedClientTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:01:43 IST" name="setup" finished-at="2025-05-29T15:01:54 IST" duration-ms="11244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnLogoutTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:01:54 IST" name="ClickOnLogoutTest" finished-at="2025-05-29T15:02:14 IST" duration-ms="19812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogoutTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:02:14 IST" name="setup" finished-at="2025-05-29T15:02:26 IST" duration-ms="12704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ChangeThemeTest()[pri:0, instance:org.example.LoginTest@4313f5bc]" started-at="2025-05-29T15:02:26 IST" name="ChangeThemeTest" finished-at="2025-05-29T15:02:38 IST" duration-ms="11628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeThemeTest -->
+      </class> <!-- org.example.LoginTest -->
+      <class name="org.example.incidenttest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:14:15 IST" name="setup" finished-at="2025-05-29T15:14:26 IST" duration-ms="11080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidCredentialTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:14:26 IST" name="InvalidCredentialTest" finished-at="2025-05-29T15:14:28 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidCredentialTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:14:28 IST" name="setup" finished-at="2025-05-29T15:14:39 IST" duration-ms="10673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickOnincidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:14:39 IST" name="ClickOnincidentTest" finished-at="2025-05-29T15:14:59 IST" duration-ms="20251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnincidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:14:59 IST" name="setup" finished-at="2025-05-29T15:15:09 IST" duration-ms="9617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="RefreshincidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:15:09 IST" name="RefreshincidentTest" finished-at="2025-05-29T15:15:26 IST" duration-ms="17220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshincidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:15:26 IST" name="setup" finished-at="2025-05-29T15:15:37 IST" duration-ms="11527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchincidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:15:37 IST" name="SearchincidentTest" finished-at="2025-05-29T15:15:59 IST" duration-ms="21270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchincidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:15:59 IST" name="setup" finished-at="2025-05-29T15:16:10 IST" duration-ms="11496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeegeneralandCommentInfoTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:16:10 IST" name="SeegeneralandCommentInfoTest" finished-at="2025-05-29T15:16:37 IST" duration-ms="26601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeegeneralandCommentInfoTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:16:37 IST" name="setup" finished-at="2025-05-29T15:16:40 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeeTheActionLogTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:16:40 IST" name="SeeTheActionLogTest" finished-at="2025-05-29T15:17:10 IST" duration-ms="30348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeTheActionLogTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:17:10 IST" name="setup" finished-at="2025-05-29T15:17:19 IST" duration-ms="9109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SeeTheAttachmentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:17:19 IST" name="SeeTheAttachmentTest" finished-at="2025-05-29T15:17:47 IST" duration-ms="28471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeeTheAttachmentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:17:47 IST" name="setup" finished-at="2025-05-29T15:17:59 IST" duration-ms="11869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateTheIncidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:17:59 IST" name="CreateTheIncidentTest" finished-at="2025-05-29T15:18:47 IST" duration-ms="47246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTheIncidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:18:47 IST" name="setup" finished-at="2025-05-29T15:18:56 IST" duration-ms="9692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SaveAsCopyIncidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:18:56 IST" name="SaveAsCopyIncidentTest" finished-at="2025-05-29T15:19:25 IST" duration-ms="28415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveAsCopyIncidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:19:25 IST" name="setup" finished-at="2025-05-29T15:19:33 IST" duration-ms="8608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EditIncidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:19:33 IST" name="EditIncidentTest" finished-at="2025-05-29T15:20:07 IST" duration-ms="34127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditIncidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:20:07 IST" name="setup" finished-at="2025-05-29T15:20:19 IST" duration-ms="11724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteIncidentTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:20:19 IST" name="DeleteIncidentTest" finished-at="2025-05-29T15:20:48 IST" duration-ms="28859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteIncidentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:20:48 IST" name="setup" finished-at="2025-05-29T15:21:01 IST" duration-ms="13064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DownloadIncidentReportTest()[pri:0, instance:org.example.incidenttest@4b5d6a01]" started-at="2025-05-29T15:21:01 IST" name="DownloadIncidentReportTest" finished-at="2025-05-29T15:21:30 IST" duration-ms="29380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadIncidentReportTest -->
+      </class> <!-- org.example.incidenttest -->
+      <class name="org.example.departmenttest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:06:55 IST" name="setup" finished-at="2025-05-29T15:07:03 IST" duration-ms="7768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClicklonDepartmentTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:07:03 IST" name="ClicklonDepartmentTest" finished-at="2025-05-29T15:07:16 IST" duration-ms="12881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClicklonDepartmentTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:07:16 IST" name="setup" finished-at="2025-05-29T15:07:28 IST" duration-ms="12051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="UpdateanddeleteDepartmentMembershipTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:07:28 IST" name="UpdateanddeleteDepartmentMembershipTest" finished-at="2025-05-29T15:07:49 IST" duration-ms="21254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateanddeleteDepartmentMembershipTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:07:49 IST" name="setup" finished-at="2025-05-29T15:08:01 IST" duration-ms="11887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteDepartmentMembershipTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:08:01 IST" name="deleteDepartmentMembershipTest" finished-at="2025-05-29T15:08:26 IST" duration-ms="24766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentMembershipTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:08:26 IST" name="setup" finished-at="2025-05-29T15:08:35 IST" duration-ms="8611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectTheDepartmentRoleTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:08:35 IST" name="SelectTheDepartmentRoleTest" finished-at="2025-05-29T15:08:56 IST" duration-ms="21867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectTheDepartmentRoleTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:08:56 IST" name="setup" finished-at="2025-05-29T15:09:07 IST" duration-ms="10269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickDeleteTheDepartmentRoleTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:09:07 IST" name="ClickDeleteTheDepartmentRoleTest" finished-at="2025-05-29T15:09:29 IST" duration-ms="21919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDeleteTheDepartmentRoleTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:09:29 IST" name="setup" finished-at="2025-05-29T15:09:41 IST" duration-ms="12212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddLocationTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:09:41 IST" name="AddLocationTest" finished-at="2025-05-29T15:10:06 IST" duration-ms="25148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddLocationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:10:06 IST" name="setup" finished-at="2025-05-29T15:10:16 IST" duration-ms="10360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteLocationTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:10:16 IST" name="DeleteLocationTest" finished-at="2025-05-29T15:10:40 IST" duration-ms="23355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLocationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:10:40 IST" name="setup" finished-at="2025-05-29T15:10:54 IST" duration-ms="14723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddClassificationTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:10:54 IST" name="AddClassificationTest" finished-at="2025-05-29T15:11:15 IST" duration-ms="20748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddClassificationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:11:15 IST" name="setup" finished-at="2025-05-29T15:11:21 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="DeleteClassificationTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:11:21 IST" name="DeleteClassificationTest" finished-at="2025-05-29T15:11:49 IST" duration-ms="28398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteClassificationTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:11:49 IST" name="setup" finished-at="2025-05-29T15:12:00 IST" duration-ms="10890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CreateNewDepartmentTest()[pri:0, instance:org.example.departmenttest@48e4374]" started-at="2025-05-29T15:12:00 IST" name="CreateNewDepartmentTest" finished-at="2025-05-29T15:12:20 IST" duration-ms="20391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewDepartmentTest -->
+      </class> <!-- org.example.departmenttest -->
+    </test> <!-- C:/Users/DELL/Downloads/Automax/Automax -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

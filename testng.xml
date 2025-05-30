@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/Downloads/Automax/Automax">
+        <classes>
+            <class name="org.example.LoginTest">
+                <methods>
+                    <include name="LoginTest"/>
+                    <include name="CreateNewAccountTest"/>
+                    <include name="UpdateProfileTest"/>
+                    <include name="SeeSecurityTest"/>
+                    <include name="SeeLoginDessionsTest"/>
+                    <include name="SeeAuthorizedClientTest"/>
+                    <include name="ClickOnLogoutTest"/>
+                    <include name="ChangeThemeTest"/>
+                </methods>
+            </class>
+            <class name="org.example.adminareatest">
+                <methods>
+                    <include name="ClicklonuserTest"/>
+                    <include name="FilteruserTest"/>
+                    <include name="AvatorSettingUpdateTest"/>
+                    <include name="AllowrolemembershipTest"/>
+                    <include name="DeleterolemembershipTest"/>
+                    <include name="ActionLogSelectTest"/>
+                    <include name="SuspenduserTest"/>
+                    <include name="DeleteuserTest"/>
+                    <include name="CreateNewuserTest"/>
+                </methods>
+            </class>
+            <class name="org.example.departmenttest">
+                <methods>
+                    <include name="ClicklonDepartmentTest"/>
+                    <include name="UpdateanddeleteDepartmentMembershipTest"/>
+                    <include name="deleteDepartmentMembershipTest"/>
+                    <include name="SelectTheDepartmentRoleTest"/>
+                    <include name="ClickDeleteTheDepartmentRoleTest"/>
+                    <include name="AddLocationTest"/>
+                    <include name="DeleteLocationTest"/>
+                    <include name="AddClassificationTest"/>
+                    <include name="DeleteClassificationTest"/>
+                    <include name="CreateNewDepartmentTest"/>
+                </methods>
+            </class>
+            <class name="org.example.classificationtest">
+                <methods>
+                    <include name="ClickOnClassificationTest"/>
+                    <include name="SearchClassificationTest"/>
+                    <include name="DeleteClassificationTest"/>
+                </methods>
+            </class>
+
+            <class name="org.example.incidenttest">
+                <methods>
+                    <include name="InvalidCredentialTest"/>
+                    <include name="ClickOnincidentTest"/>
+                    <include name="RefreshincidentTest"/>
+                    <include name="SearchincidentTest"/>
+                    <include name="SeegeneralandCommentInfoTest"/>
+                    <include name="SeeTheActionLogTest"/>
+                    <include name="SeeTheAttachmentTest"/>
+                    <include name="CreateTheIncidentTest"/>
+                    <include name="SaveAsCopyIncidentTest"/>
+                    <include name="EditIncidentTest"/>
+                    <include name="DeleteIncidentTest"/>
+                    <include name="DownloadIncidentReportTest"/>
+                </methods>
+            </class>
+            <class name="org.example.locationtest">
+                <methods>
+                    <include name="ClickOnLocationTest"/>
+                    <include name="SearchTheLocationTest"/>
+                    <include name="DeleteTheLocationTest"/>
+                </methods>
+            </class>
+            <class name="org.example.rolestest">
+                <methods>
+                    <include name="ClickOnrolesTest"/>
+                    <include name="FilterTherolesTest"/>
+                    <include name="AddandDeleteRoleMembershipTest"/>
+                    <include name="ArchiveTherolesTest"/>
+                    <include name="CreateNewRoleTest"/>
+                    <include name="DeleteTherolesTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
