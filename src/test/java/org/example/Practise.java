@@ -10,8 +10,7 @@ import java.util.Set;
 
 public class Practise {
 
-    public static void main(String[] args) throws InterruptedException
-    {
+    public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -35,7 +34,7 @@ public class Practise {
         driver.findElement(By.xpath("(//a[@rel='noopener'])[2]")).click();
         Thread.sleep(2000);
         Set<String> windowIds = driver.getWindowHandles();
-        for(String windowid :windowIds)
+        for (String windowid : windowIds)
             driver.switchTo().window(windowid);
         driver.findElement(By.xpath("(//input[@placeholder='Enter your old password'])[1]")).sendKeys("hfhjfdd");
     }

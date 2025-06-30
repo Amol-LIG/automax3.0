@@ -21,24 +21,22 @@ public class roles {
     private By Login = By.xpath("(//button[@type='submit'])[2]");
     private By Shpassword = By.xpath("//input[@type='checkbox']");
     private By AdminArea = By.xpath("(//div[@class='card app h-100'])[10]");
-     private By Role = By.xpath("//a[@title='Roles']");
+    private By Role = By.xpath("//a[@title='Roles']");
     private By Filterrole = By.xpath("//input[@placeholder='Filter roles by name']");
     private By Viewrole = By.xpath("//td[text()='aamol']");
     private By Deleterole = By.xpath("//button[@class='btn confirmation-prompt flex-fill btn-danger']");
     private By YesRole = By.xpath("//button[@class='btn confirmation-confirm flex-fill mr-1 btn-danger']");
     private By Archive = By.xpath("//button[@class='btn confirmation-prompt flex-fill btn-secondary']");
     private By YesArchive = By.xpath("//button[@class='btn confirmation-confirm flex-fill mr-1 btn-danger']");
-private By AddRoleM= By.xpath("//input[@type='search']");
-private By SelectRole= By.xpath("(//li[@role='option'])[23]");
-private  By SubmitMembership = By.xpath("(//button[@type='submit'])[2]");
-private  By DeleteM = By.xpath("(//button[@type='button'])[11]");
-private By RightArrow = By.xpath("//button[@class='btn flex-fill mr-1 btn-danger btn-sm border-0']");
-private By NewRole= By.xpath("//a[@data-test-id='button-new-role']");
-private By EnterroleName = By.xpath("//input[@class='form-control is-invalid']");
-private By Enterhandlerole = By.xpath("//input[@data-test-id='input-handle']");
-private By ClickSubmitRole = By.xpath("//button[@type='submit']");
-
-
+    private By AddRoleM = By.xpath("//input[@type='search']");
+    private By SelectRole = By.xpath("(//li[@role='option'])[23]");
+    private By SubmitMembership = By.xpath("(//button[@type='submit'])[2]");
+    private By DeleteM = By.xpath("(//button[@type='button'])[11]");
+    private By RightArrow = By.xpath("//button[@class='btn flex-fill mr-1 btn-danger btn-sm border-0']");
+    private By NewRole = By.xpath("//a[@data-test-id='button-new-role']");
+    private By EnterroleName = By.xpath("//input[@class='form-control is-invalid']");
+    private By Enterhandlerole = By.xpath("//input[@data-test-id='input-handle']");
+    private By ClickSubmitRole = By.xpath("//button[@type='submit']");
 
 
     // Constructor to initialize driver
@@ -107,79 +105,55 @@ private By ClickSubmitRole = By.xpath("//button[@type='submit']");
         ARCHIVEROLE.click();
     }
 
-    public void ClickYesArchivetheRole()
-    {
+    public void ClickYesArchivetheRole() {
         WebElement YESARCHIVEROLE = wait.until(ExpectedConditions.visibilityOfElementLocated(YesRole));
         YESARCHIVEROLE.click();
     }
-    public void ClickAddRole()
-    {
+
+    public void ClickAddRole() {
         WebElement ADDROLE = wait.until(ExpectedConditions.visibilityOfElementLocated(AddRoleM));
-ADDROLE.click();
-    }
-    public void SelectTheRole()
-    {
-        WebElement SELECTROLE = wait.until(ExpectedConditions.visibilityOfElementLocated(SelectRole));
-SELECTROLE.click();
+        ADDROLE.click();
     }
 
-    public void SubmitTheMembership()
-    {
-        WebElement SUBMITM= wait.until(ExpectedConditions.visibilityOfElementLocated(SubmitMembership));
+    public void SelectTheRole() {
+        WebElement SELECTROLE = wait.until(ExpectedConditions.visibilityOfElementLocated(SelectRole));
+        SELECTROLE.click();
+    }
+
+    public void SubmitTheMembership() {
+        WebElement SUBMITM = wait.until(ExpectedConditions.visibilityOfElementLocated(SubmitMembership));
         SUBMITM.click();
     }
-    public void ClickOnTheRightArrow()
-    {
-        WebElement RIGHTARROW= wait.until(ExpectedConditions.visibilityOfElementLocated(RightArrow));
-RIGHTARROW.click();
+
+    public void ClickOnTheRightArrow() {
+        WebElement RIGHTARROW = wait.until(ExpectedConditions.visibilityOfElementLocated(RightArrow));
+        RIGHTARROW.click();
     }
-    public void DeleteTheMembership()
-    {
-        WebElement DELETEM= wait.until(ExpectedConditions.visibilityOfElementLocated(DeleteM));
-DELETEM.click();
+
+    public void DeleteTheMembership() {
+        WebElement DELETEM = wait.until(ExpectedConditions.visibilityOfElementLocated(DeleteM));
+        DELETEM.click();
     }
-    public void ClickOnTheNewRole()
-    {
-        WebElement ROLEN= wait.until(ExpectedConditions.visibilityOfElementLocated(NewRole));
+
+    public void ClickOnTheNewRole() {
+        WebElement ROLEN = wait.until(ExpectedConditions.visibilityOfElementLocated(NewRole));
         ROLEN.click();
     }
-    public void EnterTheNewRoleName(String NameR)
-    {
-        WebElement ENTERNEWROLENAME= wait.until(ExpectedConditions.visibilityOfElementLocated(EnterroleName));
+
+    public void EnterTheNewRoleName(String NameR) {
+        WebElement ENTERNEWROLENAME = wait.until(ExpectedConditions.visibilityOfElementLocated(EnterroleName));
         ENTERNEWROLENAME.sendKeys(NameR);
     }
-    public void EnterTheHandleRoleName(String NameHandle)
-    {
-        WebElement ENTERHANDLENAME= wait.until(ExpectedConditions.visibilityOfElementLocated(Enterhandlerole));
+
+    public void EnterTheHandleRoleName(String NameHandle) {
+        WebElement ENTERHANDLENAME = wait.until(ExpectedConditions.visibilityOfElementLocated(Enterhandlerole));
         ENTERHANDLENAME.sendKeys(NameHandle);
     }
 
-    public void ClickSubmittheRole()
-    {
-        WebElement NewROLESubmit= wait.until(ExpectedConditions.visibilityOfElementLocated(ClickSubmitRole));
+    public void ClickSubmittheRole() {
+        WebElement NewROLESubmit = wait.until(ExpectedConditions.visibilityOfElementLocated(ClickSubmitRole));
         NewROLESubmit.click();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

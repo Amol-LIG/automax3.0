@@ -1,0 +1,335 @@
+<html>
+<head>
+<title>TestNG:  C:/Users/DELL/Downloads/Automax/Automax</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>C:/Users/DELL/Downloads/Automax/Automax</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>51/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 29 14:59:13 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>1616 seconds (1616659 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.example.classificationtest.ClickOnClassificationTest()'><b>ClickOnClassificationTest</b><br>Test class: org.example.classificationtest</td>
+<td></td>
+<td>26</td>
+<td>org.example.classificationtest@3d680b5a</td></tr>
+<tr>
+<td title='org.example.incidenttest.SeegeneralandCommentInfoTest()'><b>SeegeneralandCommentInfoTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>26</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.incidenttest.EditIncidentTest()'><b>EditIncidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>34</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.LoginTest.SeeLoginDessionsTest()'><b>SeeLoginDessionsTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>10</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.rolestest.CreateNewRoleTest()'><b>CreateNewRoleTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>18</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.departmenttest.ClickDeleteTheDepartmentRoleTest()'><b>ClickDeleteTheDepartmentRoleTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>21</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.departmenttest.AddClassificationTest()'><b>AddClassificationTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>20</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.departmenttest.UpdateanddeleteDepartmentMembershipTest()'><b>UpdateanddeleteDepartmentMembershipTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>21</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.incidenttest.SeeTheActionLogTest()'><b>SeeTheActionLogTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>30</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.classificationtest.DeleteClassificationTest()'><b>DeleteClassificationTest</b><br>Test class: org.example.classificationtest</td>
+<td></td>
+<td>26</td>
+<td>org.example.classificationtest@3d680b5a</td></tr>
+<tr>
+<td title='org.example.rolestest.ArchiveTherolesTest()'><b>ArchiveTherolesTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>25</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.rolestest.DeleteTherolesTest()'><b>DeleteTherolesTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>16</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.adminareatest.ActionLogSelectTest()'><b>ActionLogSelectTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>19</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.adminareatest.AllowrolemembershipTest()'><b>AllowrolemembershipTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>18</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.departmenttest.SelectTheDepartmentRoleTest()'><b>SelectTheDepartmentRoleTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>21</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.LoginTest.ClickOnLogoutTest()'><b>ClickOnLogoutTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>19</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.incidenttest.SearchincidentTest()'><b>SearchincidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>21</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.adminareatest.CreateNewuserTest()'><b>CreateNewuserTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>19</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.adminareatest.AvatorSettingUpdateTest()'><b>AvatorSettingUpdateTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>17</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.LoginTest.SeeAuthorizedClientTest()'><b>SeeAuthorizedClientTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>9</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.classificationtest.SearchClassificationTest()'><b>SearchClassificationTest</b><br>Test class: org.example.classificationtest</td>
+<td></td>
+<td>33</td>
+<td>org.example.classificationtest@3d680b5a</td></tr>
+<tr>
+<td title='org.example.adminareatest.ClicklonuserTest()'><b>ClicklonuserTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>16</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.departmenttest.DeleteClassificationTest()'><b>DeleteClassificationTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>28</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.departmenttest.DeleteLocationTest()'><b>DeleteLocationTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>23</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.incidenttest.DownloadIncidentReportTest()'><b>DownloadIncidentReportTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>29</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.incidenttest.ClickOnincidentTest()'><b>ClickOnincidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>20</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.adminareatest.DeleterolemembershipTest()'><b>DeleterolemembershipTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>20</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.incidenttest.RefreshincidentTest()'><b>RefreshincidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>17</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.departmenttest.AddLocationTest()'><b>AddLocationTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>25</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.LoginTest.CreateNewAccountTest()'><b>CreateNewAccountTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>7</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.adminareatest.DeleteuserTest()'><b>DeleteuserTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>16</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.departmenttest.ClicklonDepartmentTest()'><b>ClicklonDepartmentTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>12</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.incidenttest.InvalidCredentialTest()'><b>InvalidCredentialTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>1</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.rolestest.FilterTherolesTest()'><b>FilterTherolesTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>14</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.LoginTest.LoginTest()'><b>LoginTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.adminareatest.SuspenduserTest()'><b>SuspenduserTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>15</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.locationtest.DeleteTheLocationTest()'><b>DeleteTheLocationTest</b><br>Test class: org.example.locationtest</td>
+<td></td>
+<td>21</td>
+<td>org.example.locationtest@4a22f9e2</td></tr>
+<tr>
+<td title='org.example.LoginTest.ChangeThemeTest()'><b>ChangeThemeTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>11</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.locationtest.SearchTheLocationTest()'><b>SearchTheLocationTest</b><br>Test class: org.example.locationtest</td>
+<td></td>
+<td>18</td>
+<td>org.example.locationtest@4a22f9e2</td></tr>
+<tr>
+<td title='org.example.adminareatest.FilteruserTest()'><b>FilteruserTest</b><br>Test class: org.example.adminareatest</td>
+<td></td>
+<td>20</td>
+<td>org.example.adminareatest@49d904ec</td></tr>
+<tr>
+<td title='org.example.LoginTest.SeeSecurityTest()'><b>SeeSecurityTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>15</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.incidenttest.DeleteIncidentTest()'><b>DeleteIncidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>28</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.incidenttest.SaveAsCopyIncidentTest()'><b>SaveAsCopyIncidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>28</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.incidenttest.CreateTheIncidentTest()'><b>CreateTheIncidentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>47</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+<tr>
+<td title='org.example.rolestest.ClickOnrolesTest()'><b>ClickOnrolesTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>12</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.locationtest.ClickOnLocationTest()'><b>ClickOnLocationTest</b><br>Test class: org.example.locationtest</td>
+<td></td>
+<td>19</td>
+<td>org.example.locationtest@4a22f9e2</td></tr>
+<tr>
+<td title='org.example.departmenttest.deleteDepartmentMembershipTest()'><b>deleteDepartmentMembershipTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>24</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.departmenttest.CreateNewDepartmentTest()'><b>CreateNewDepartmentTest</b><br>Test class: org.example.departmenttest</td>
+<td></td>
+<td>20</td>
+<td>org.example.departmenttest@48e4374</td></tr>
+<tr>
+<td title='org.example.LoginTest.UpdateProfileTest()'><b>UpdateProfileTest</b><br>Test class: org.example.LoginTest</td>
+<td></td>
+<td>17</td>
+<td>org.example.LoginTest@4313f5bc</td></tr>
+<tr>
+<td title='org.example.rolestest.AddandDeleteRoleMembershipTest()'><b>AddandDeleteRoleMembershipTest</b><br>Test class: org.example.rolestest</td>
+<td></td>
+<td>31</td>
+<td>org.example.rolestest@3c419631</td></tr>
+<tr>
+<td title='org.example.incidenttest.SeeTheAttachmentTest()'><b>SeeTheAttachmentTest</b><br>Test class: org.example.incidenttest</td>
+<td></td>
+<td>28</td>
+<td>org.example.incidenttest@4b5d6a01</td></tr>
+</table><p>
+</body>
+</html>

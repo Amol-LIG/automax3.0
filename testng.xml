@@ -4,21 +4,9 @@
     <test verbose="2" preserve-order="true" name="C:/Users/DELL/Downloads/Automax/Automax">
         <classes>
 
-            <class name="org.example.epmimstest">
                 <methods>
-                    <include name="SelectEpmVdImsTest"/>
-                    <include name="CreateTheIncidentForEpmVdImsTest"/>
-                    <include name="SearchTheIncidentForEpmVdImsTest"/>
-                    <include name="ClickOnTheApproveIncidentForEpmVdImsTest"/>
-                    <include name="ClickOnTheAssigntoContractorTest"/>
-                    <include name="ClickOnTheAssigntoDepartmentTest"/>
-                    <include name="ClickOnTheResolveIncidentForEpmVdImsTest"/>
-                    <include name="ClickOnTheCloseIncidentForEpmVdImsTest"/>
-                    <include name="ClickOnDuplicateIncidentForEpmVdImsTest"/>
-                    <include name="ClickOnRejectIncidentForEpmVdImsTest"/>
                 </methods>
             </class>
-
         </classes>
     </test>
 </suite>

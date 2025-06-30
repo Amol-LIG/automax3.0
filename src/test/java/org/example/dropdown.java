@@ -12,7 +12,6 @@ import java.time.Instant;
 public class dropdown {
 
 
-
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
