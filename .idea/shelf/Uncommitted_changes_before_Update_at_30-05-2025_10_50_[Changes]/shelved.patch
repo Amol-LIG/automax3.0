@@ -1,0 +1,14 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># AAutpmax3.o\r\n# AAutpmax3.o\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 92b70a2d3c78daf385d8cec1739f253c86526934)
++++ b/README.md	(date 1748515608427)
+@@ -1,2 +1,3 @@
+ # AAutpmax3.o
++
+ # AAutpmax3.o

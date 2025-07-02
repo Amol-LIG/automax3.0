@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c2b6354-b794-43ce-b315-9ff917c43152" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Notifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calenders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/containergroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/containers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/containertype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/contractorsmanagment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/devicemanagment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/driversmanagment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/maintance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/reports2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/setting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/unitgroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/usermanagment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/zones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/NotificationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accounttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/calenderstest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/containergrouptest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/containerstest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/containertypetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/contractorsmanagmenttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/devicemanagmenttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/devicetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/driversmanagmenttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/maintancetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/pathtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/reports2test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/reportstest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/servertest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/settingtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/unitgrouptest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/usermanagmenttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/zonestest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/jvm.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/maven.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshottake   .png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adminarea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/classification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/incident.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/roles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/adminareatest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/classificationtest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/departmenttest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/dropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/incidenttest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/locationtest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/rolestest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Amol-LIG&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Amol-LIG/automax3.0.git&quot;,
+    &quot;accountId&quot;: &quot;b35671f1-d88e-464c-a869-7e20ecef130d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xlbeDXAg67GnXvxXfpWNzhOZ6C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Practise.executor": "Run",
+    "Application.dropdown.executor": "Run",
+    "Application.sample.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/Test Engineer/Downloads/Automax/Automax/testng.xml.executor": "Run",
+    "TestNG.C:/Users/Test Engineer/Downloads/Caguar/Caguar/testng.xml.executor": "Run",
+    "TestNG.LoginTest.InvalidLoginTest.executor": "Run",
+    "TestNG.LoginTest.LoginTest.executor": "Run",
+    "TestNG.LoginTest.ResetPasswordTest.executor": "Run",
+    "TestNG.LoginTest.SelectTheLanguageTest.executor": "Run",
+    "TestNG.NotificationsTest.ClickCreateTheNotificationsTest.executor": "Run",
+    "TestNG.NotificationsTest.ClickOnTheNotificationTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnDuplicateIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnRejectIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnTheApproveIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnTheAssigntoContractorTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnTheAssigntoDepartmentTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnTheCloseIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnTheResolveIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.ClickOnincidentTest.executor": "Run",
+    "TestNG.epmimstest.CreateTheIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.SearchTheIncidentForEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.SelectEpmVdImsTest.executor": "Run",
+    "TestNG.epmimstest.executor": "Run",
+    "TestNG.settingtest.SeeTheInfoTest.executor": "Run",
+    "TestNG.settingtest.SelectTheSoundEventAndSoundAlarmTest.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Test Engineer/Downloads/Caguar/Caguar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.NotificationsTest.ClickCreateTheNotificationsTest">
+    <configuration name="Automax [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/Test Engineer/Downloads/Automax/Automax/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automax" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Test Engineer/Downloads/Caguar/Caguar/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Caguar" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationsTest.ClickCreateTheNotificationsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Caguar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NotificationsTest" />
+      <option name="METHOD_NAME" value="ClickCreateTheNotificationsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationsTest.ClickOnTheNotificationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Caguar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.NotificationsTest" />
+      <option name="METHOD_NAME" value="ClickOnTheNotificationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="settingtest.SeeTheInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Caguar" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.settingtest" />
+      <option name="METHOD_NAME" value="SeeTheInfoTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="settingtest.SelectTheSoundEventAndSoundAlarmTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Caguar" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.settingtest" />
+      <option name="METHOD_NAME" value="SelectTheSoundEventAndSoundAlarmTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.Automax [clean,install]" />
+      <item itemvalue="TestNG.NotificationsTest.ClickCreateTheNotificationsTest" />
+      <item itemvalue="TestNG.NotificationsTest.ClickOnTheNotificationTest" />
+      <item itemvalue="TestNG.settingtest.SeeTheInfoTest" />
+      <item itemvalue="TestNG.settingtest.SelectTheSoundEventAndSoundAlarmTest" />
+      <item itemvalue="TestNG.C:/Users/Test Engineer/Downloads/Caguar/Caguar/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.NotificationsTest.ClickCreateTheNotificationsTest" />
+        <item itemvalue="TestNG.NotificationsTest.ClickOnTheNotificationTest" />
+        <item itemvalue="TestNG.C:/Users/Test Engineer/Downloads/Caguar/Caguar/testng.xml" />
+        <item itemvalue="TestNG.settingtest.SeeTheInfoTest" />
+        <item itemvalue="TestNG.settingtest.SelectTheSoundEventAndSoundAlarmTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c2b6354-b794-43ce-b315-9ff917c43152" name="Changes" comment="" />
+      <created>1748515700343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748515700343</updated>
+      <workItem from="1748515701575" duration="1447000" />
+      <workItem from="1748579261325" duration="5577000" />
+      <workItem from="1748834234023" duration="29716000" />
+      <workItem from="1749101416208" duration="116000" />
+      <workItem from="1749101747262" duration="4873000" />
+      <workItem from="1749108196695" duration="12494000" />
+      <workItem from="1749622618292" duration="1446000" />
+      <workItem from="1749701537001" duration="4866000" />
+      <workItem from="1750052948942" duration="99000" />
+      <workItem from="1750053850802" duration="605000" />
+      <workItem from="1750070372175" duration="3000" />
+      <workItem from="1750134017681" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
